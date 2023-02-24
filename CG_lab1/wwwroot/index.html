@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <title>Colour converter</title>
+</head>
+<body>
+<div class="overallBox">
+    <div class="wrapper" id="wrapper">
+        <div class="colourBox"><h2>Color Converter</h2></div>
+        <div class="box1">
+            <div class="wheel" id="colourPicker"></div>
+        </div>
+        <div class="colourBox">
+            <div>
+                <div class="pInput">
+                    <label for="r-input">R</label>
+                    <input class="input" id="r-input" type="number" max="255" min="0"/>
+                </div>
+                <div class="pInput">
+                    <label for="g-input">G</label>
+                    <input class="input" id="g-input" type="number" max="255" min="0"/>
+                </div>
+                <div class="pInput">
+                    <label for="b-input">B</label>
+                    <input class="input" id="b-input" type="number" max="255" min="0"/>
+                </div>
+            </div>
+        </div>
+        <div class="colourBox">
+            <div>
+                <div class="pInput">
+                    <div>
+                        <label for="x-input">X</label>
+                    </div>
+                    <div>
+                        <input class="input" id="x-input" type="number"/>
+                    </div>
+                </div>
+                <div class="pInput">
+                    <label for="y-input">Y</label>
+                    <input class="input" id="y-input" type="number"/>
+                </div>
+                <div class="pInput">
+                    <label for="z-input">Z</label>
+                    <input class="input" id="z-input" type="number"/>
+                </div>
+            </div>
+        </div>
+        <div class="colourBox">
+            <div>
+                <div class="pInput">
+                    <label for="h-input">H</label>
+                    <input class="input" id="h-input" type="number" max="360" min="0"/>
+                </div>
+                <div class="pInput">
+                    <label for="s-input">S</label>
+                    <input class="input" id="s-input" type="number" max="100" min="0"/>
+                </div>
+                <div class="pInput">
+                    <label for="v-input">V</label>
+                    <input class="input" id="v-input" type="number" max="100" min="0"/>
+                </div>
+            </div>
+        </div>
+        <div id="colourMonitor" class="colourMonitor"></div>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="main.js"></script>

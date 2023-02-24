@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CG_lab1.props" />
+</Project>
